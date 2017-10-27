@@ -19,23 +19,23 @@ _With this project, I created a machine that will speak to you in robot speak. I
 
 ## Specs
 
-###The program takes a zero input and returns "Beep."
+### The program takes a zero input and returns "Beep."
 *	Example Input: 0
 *	Example Output: Beep
 
-###The program takes a 1 input and returns "Boop."
+### The program takes a 1 input and returns "Boop."
 *	Example Input: 1
 *	Example Output: Boop
 
-###The program takes input numbers divisible by 3 and returns the sentence: "I'm sorry, Dave. I'm afraid I can't do that."
+### The program takes input numbers divisible by 3 and returns the sentence: "I'm sorry, Dave. I'm afraid I can't do that."
 *	Example: 9
 *	Example Output: "I'm sorry, Dave. I'm afraid I can't do that."
 
-###The program takes all other numbers and returns them as entered.
+### The program takes all other numbers and returns them as entered.
 *	Example Input: 40
 *	Example Output: 4Beep
 
-###The program will not allow text.
+### The program will not allow text.
 *	Example Input: ?Hello
 *	Example Output:
 
