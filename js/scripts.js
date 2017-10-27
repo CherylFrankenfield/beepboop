@@ -1,28 +1,25 @@
 // // Business logic goes here
 
 
-var robot = function(digits) {
-  var splitDigits = digits.split("");
-  var result = [];
+function robot(digits) {
+  var splitDigits = digits.split(""); //turns input into an array
+  var result = [ ];
 
   for (var index = 0; index < splitDigits.length; index +=1) {
-
     if (splitDigits[index] === 0) {
-      console.log(digits);
       splitDigits[index].replace(0, "Beep");
-      result.push(splitDigits[index]);
+      result.push("splitDigits[index]");
+      console.log(digits);
     } else if (splitDigits[index] === 1) {
       splitDigits[index].replace(1, "Boop");
-      result.push(splitDigits[index]);
+      result.push("splitDigits[index]");
     } else if (splitDigits[index] % 3 === 0) {
       splitDigits[index].replace(splitDigits, "I'm sorry, Dave. I'm afraid I can't do that.");
-      result.push(splitDigits[index]);
-    } else {
-      splitDigits[index] === splitDigits
-      result.push(splitDigits[index]);
+      result.push("splitDigits[index]");
+    } else { result.push("splitDigits[index]");
     }
-    return result.join("");
   }
+  return result.join("");
 }
 
 //Interface goes here

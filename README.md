@@ -35,9 +35,9 @@ The program takes all other numbers and returns them as entered.
 ⁃	Example Input: 40
 ⁃	Example Output: 4Beep
 
-The program takes text and alerts: "Do not compute. Please enter a number."
-⁃	Example Input: hello robot
-⁃	Example Output: "Do not compute. Please enter a number."
+The program will not allow text.
+⁃	Example Input: ?Hello
+⁃	Example Output: 
 
 ## Known Bugs
 
