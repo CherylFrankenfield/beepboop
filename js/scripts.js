@@ -1,6 +1,5 @@
 // // Business logic goes here
 
-
 function robot(digits) {
   var splitDigits = digits.split(""); //turns input into an array
   var result = [];
