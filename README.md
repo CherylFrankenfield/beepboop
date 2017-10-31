@@ -6,7 +6,7 @@
 
 ## Description
 
-_With this project, I created a machine that will speak to you in robot speak. It is an overview of Javascript, jQuery, looping and branching._
+_With this project, I created a machine that will speak to you in robot speak. It is an overview of Javascript, jQuery, looping and branching. The program takes input from 0 up to a user's selected inputted number and returns all digits in between, replacing a few numbers with text. For example, 7 input turns into [Beep, Boop, 2, "I'm sorry, Dave. I'm afraid I can't do that", 4, 5, "I'm sorry, Dave. I'm afraid I can't do that", 7]._
 
 ## Setup/Installation Requirements
 
@@ -19,25 +19,37 @@ _With this project, I created a machine that will speak to you in robot speak. I
 
 ## Specs
 
-### The program takes a zero input and returns "Beep."
-*	Example Input: 0
-*	Example Output: Beep
-
-### The program takes a 1 input and returns "Boop."
-*	Example Input: 1
-*	Example Output: Boop
-
-### The program takes input numbers divisible by 3 and returns the sentence: "I'm sorry, Dave. I'm afraid I can't do that."
-*	Example: 9
-*	Example Output: "I'm sorry, Dave. I'm afraid I can't do that."
-
-### The program takes all other numbers and returns them as entered.
-*	Example Input: 40
-*	Example Output: 4Beep
-
-### The program will not allow text.
+### The program will not allow text input.
 *	Example Input: ?Hello
 *	Example Output:
+
+### The program takes a zero input and returns "Beep!"
+*	Example Input: 0
+*	Example Output: ["Beep!"]
+
+### The program takes a 1 input and returns "Boop!" and displays from zero to one.
+*	Example Input: 1
+*	Example Output: ["Beep!", "Boop!"]
+
+### The program takes a 2 input and returns "2" and displays from zero to two.
+*	Example Input: 2
+*	Example Output: ["Beep!", "Boop!", "2"]
+
+### The program takes a 3 input and returns "I'm sorry, Dave. I'm afraid I can't do that" and displays from zero to three. For numbers divisible by 3, the program will return this sentence.
+*	Example Input: 3
+*	Example Output: ["Beep!", "Boop!", "2", "I'm sorry, Dave. I'm afraid I can't do that."]
+
+### The program takes a 4 input and returns "4" and displays from zero to four.
+*	Example Input: 4
+*	Example Output: ["Beep!", "Boop!", "2", "I'm sorry, Dave. I'm afraid I can't do that", "4"]
+
+### The program takes a 5 input and returns "5" and displays from zero to five.
+*	Example Input: 5
+*	Example Output: ["Beep!", "Boop!", "2", "I'm sorry, Dave. I'm afraid I can't do that", "4", "5"]
+
+### The program takes a 6 input and returns "I'm sorry, Dave. I'm afraid I can't do that" and displays from zero to six.
+*	Example Input: 6
+*	Example Output: ["Beep!", "Boop!", "2", "I'm sorry, Dave. I'm afraid I can't do that", "4", "5", "I'm sorry, Dave. I'm afraid I can't do that"]
 
 ## Known Bugs
 
