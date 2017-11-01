@@ -19,10 +19,6 @@ _With this project, I created a machine that will speak to you in robot speak. I
 
 ## Specs
 
-### The program will not allow text input.
-*	Example Input: ?Hello
-*	Example Output:
-
 ### The program takes a zero input and returns "Beep!"
 *	Example Input: 0
 *	Example Output: ["Beep!"]
