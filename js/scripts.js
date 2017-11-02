@@ -40,7 +40,7 @@
 //     return result
 // }
 
-//Code updated 10.31.17
+//Code updated 10.31.17. Will work thru number 5:
 // function robot(digit) {
 //   result = [];
 //     if (digit === "0") {
@@ -60,20 +60,41 @@
 //   return result
 // }
 
+// Code updated 10.31.17. Will work thru number 9:
+// function robot(digit) {
+//   result = [];
+//   for (index = 0; index <= digit; index++) {
+//     if (index === 0) {
+//       result.push("Beep!");
+//     } else if (index === 1) {
+//       result.push("Boop!");
+//     } else if (index % 3 === 0) {
+//       result.push("I'm sorry, Dave. I'm afraid I can't do that.");
+//     } else { result.push(index)
+//     }
+//   }
+//   return result
+// }
+
 // Business logic goes here
+
 function robot(digit) {
-  result = [];
+  var result = [];
   for (index = 0; index <= digit; index++) {
-    if (index === 0) {
-      result.push("Beep!");
-    } else if (index === 1) {
-      result.push("Boop!");
-    } else if (index % 3 === 0) {
+    if (digit.includes(index % 3 === 0) === true) {
       result.push("I'm sorry, Dave. I'm afraid I can't do that.");
-    } else { result.push(index)
+    } else {
+      for (index2 = 0; index2 <= digit; index2++) {
+        if (digit.includes("0") === true) {
+          result.push("Beep!");
+        } else if (digit.includes("1") === true) {
+          result.push("Boop!");
+        } else { result.push(digit)
+        }
+      }
     }
-  }
   return result
+  }
 }
 
 //Interface goes here
